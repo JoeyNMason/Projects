@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+
+.input-container{
+    border-color: black;
+    border-style: dashed;
+    border-width: 2px;
+    height: 50px;
+}
