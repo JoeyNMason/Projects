@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Worlds Worst Looking Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+                <!-- button boilerplate -->
+                <!-- 
+                <button class="one">1</button>
+                <button class="two">2</button>
+                <button class="three">3</button>
+                <button class="four">4</button>
+                <button class="five">5</button>
+                <button class="six">6</button>
+                <button class="seven" >7</button>
+                <button class="eight">8</button>
+                <button class="nine">9</button>
+                <button class="zero">0</button>
+                <button class="divide">%</button>
+                <button class="times">*</button>
+                <button class="minus">-</button>
+                <button class="decimal">.</button>
+                <button class="plus">+</button>
+                <button class="equals">=</button> 
+                -->
+    
+
+        <h1>Worlds Worst Looking Calculator</h1>
+
+        <!-- Calc type 1 -->
+
+        <form name="form1">
+        <div class="calc-container">
+
+            <div class="input-container">
+                <input id="calc" type="text" name="answer">
+            </div>
+            <br>
+            <div class="sym-container">
+
+                <input type="button" value="one" onclick="form1.answer.value += '1'">
+                <input type="button" value="two" onclick="form1.answer.value += '2'">
+                <input type="button" value="three" onclick="form1.answer.value += '3'">
+                <input type="button" value="four" onclick="form1.answer.value += '4'">
+                <input type="button" value="five" onclick="form1.answer.value += '5'">
+                <input type="button" value="six" onclick="form1.answer.value += '6'">
+                <input type="button" value="seven" onclick="form1.answer.value += '7'">
+                <input type="button" value="eight" onclick="form1.answer.value += '8'">
+                <input type="button" value="nine" onclick="form1.answer.value += '9'">
+                <input type="button" value="zero" onclick="form1.answer.value += '0'">
+                <input type="button" value="/" onclick="form1.answer.value += '/'">
+                <input type="button" value="*" onclick="form1.answer.value += '*'">
+                <input type="button" value="-" onclick="form1.answer.value += '-'">
+                <input type="button" value="." onclick="form1.answer.value += '.'">
+                <input type="button" value="+" onclick="form1.answer.value += '+'">
+                <input type="button" value="=" onclick="form1.answer.value = eval(form1.answer.value)">
+
+                <input type="button" value="Clear All" onclick="form1.answer.value = ''" id="clear">
+
+                </div> 
+            </div>
+
+        </form>
+
+<!-- Calc type 2 -->
+
+
+        
+        <!-- <footer>Copyright: Joseph Nathanael Mason</footer> --> 
+        <script src="scripts.js" async defer></script>
+    </body>
+</html>

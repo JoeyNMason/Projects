@@ -1,0 +1,9 @@
+how to build a calc app:
+
+1. look at reference pic
+2.design it
+3.html
+4.css (dont go crazy with the design keep it basic)
+5.JS (use documentation and internet)
+6. pray it works.
+7. have fun building it!!!
